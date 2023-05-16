@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   overflow: auto;
 }
-body {
+bodyStyle {
   max-height: 100vh; /* Définit la hauteur maximale de la page en fonction de la hauteur de la fenêtre du navigateur */
   overflow-y: scroll; /* Active le défilement vertical lorsque le contenu dépasse la hauteur de la page */
 }
