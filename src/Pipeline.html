@@ -56,11 +56,12 @@
     </style>
 </head>
 
+<body>
  <!-- Sidebar -->
  <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
     <h4 class="w3-bar-item">Menu</h4>
     <a href="index.html" class="w3-bar-item w3-button w3-teal">Home</a>
-<body>
+ </nav>
 
 <!-- Main Content -->
 <div class="w3-main" id="main">
@@ -76,3 +77,23 @@
                 Une pipeline est un concept clé dans les pratiques DevOps. C'est un ensemble d'étapes automatisées qui permettent
                 de gérer le flux de travail lors du développement et du déploiement de logiciels. Une pipeline typique comprend
                 plusieurs phases, telles que la compilation, les tests, la création de packages, le déploiement et la
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Used to toggle the sidebar on small screens when clicking on the menu button
+    function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        if (sidebar.style.display === "block") {
+            sidebar.style.display = "none";
+        } else {
+            sidebar.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
+``
