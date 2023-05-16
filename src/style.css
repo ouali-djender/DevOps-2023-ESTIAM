@@ -7,3 +7,7 @@ html, body {
   padding: 0;
   overflow: auto;
 }
+.element {
+  max-height: 300px; /* Définissez la hauteur maximale souhaitée */
+  overflow-y: auto; /* Active le défilement vertical lorsque le contenu dépasse la hauteur */
+}
